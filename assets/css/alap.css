@@ -1,0 +1,330 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nulla-padd-marg {
+	padding: 0;
+	margin: 0;
+}
+
+#fooldal-felso-doboz {
+	display: block;
+	background-image: url("../img/fooldal.jpg");
+	height: 800px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sotetito {
+	background: rgba(0, 0, 0, 0.5);
+	height: 800px !important;
+	width: 100% !important;
+}
+
+.fooldal-tartalom {
+	padding-top: 300px;
+	padding-right: 30%;
+	padding-left: 30%;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+.fooldal-szovegdoboz {
+	font-size: 20px;
+}
+
+.szoleszet-leiras {
+	margin: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#fooldal-aldo-doboz {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+.geleria {
+	margin: 5px;
+	border: 2px solid #ccc;
+	float: left;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.geleria img {
+	width: 100%;
+	height: auto;
+}
+
+.leiras {
+	padding: 15px;
+	text-align: center;
+}
+
+.szoleszet-cim {
+	margin: 50px;
+	text-align: center;
+}
+
+.kontener {
+	display: flex;
+	margin: 50px;
+}
+
+.hasab {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.magamrol-hasab {
+	display: flex;
+	flex: 1;
+}
+
+.nehezseg-hasab {
+	padding: 30px;
+	text-align: center;
+}
+
+.geleria-nehezseg {
+	margin: 5px;
+	border: 2px solid #ccc;
+	float: left;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.geleria-nehezseg img {
+	width: 100%;
+	height: auto;
+}
+
+.fejlec {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+}
+
+@media screen and (min-width: 992px) {
+	.navigacios-menu-2 {
+		display: none;
+	}
+	#logo-1 {
+		display: block;
+		float: left;
+	}
+	#logo-1 a {
+		display: block;
+		text-decoration: none;
+		font-size: 40px;
+		color: white;
+		margin: 10px;
+		padding-left: 20px;
+		font-family: 'Dancing Script', cursive;
+	}
+	#kontener-1 {
+		margin: 0 auto;
+		height: 70px;
+	}
+	.navigacios-menu-1 {
+		background-color: #336699;
+		height: 70px;
+		width: 100%;
+		text-align: center;
+	}
+	.navigacios-menu-1 li {
+		list-style-type: none;
+		padding: 0px;
+		height: 24px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		display: inline;
+	}
+	.navigacios-menu-1 li a {
+		color: white;
+		font-size: 16px;
+		font-family: Arial;
+		text-decoration: none;
+		line-height: 70px;
+		padding: 5px 15px;
+	}
+	.navigacios-menu-1 ul {
+		padding: 0px;
+		margin: 0px;
+		margin-right: 20px;
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+		float: right;
+	}
+	.profil-kep {
+		width: 350px;
+		border: 2px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+	}
+	.profil-kep:hover {
+		transition: 0.2s;
+		box-shadow: 0 0 2px 1px rgba(0, 140, 150, 0.5);
+	}
+	.osztott-1 {
+		overflow: hidden;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.kisebb {
+		width: 90%;
+		text-align: justify;
+	}
+	.osztott-2 {
+		margin: 0;
+		width: 40%;
+		float: right;
+		text-align: left;
+	}
+	.osztott-2 h1 {
+		text-align: center;
+	}
+	.tobbet-magamrol {
+		text-align: center;
+	}
+	.rolam-gomb {
+		background-color: #336699;
+		display: inline-block;
+		cursor: pointer;
+		color: white;
+		font-family: Arial;
+		font-size: 18px;
+		text-shadow: none;
+		text-decoration: none;
+		padding: 15px;
+		border-radius: 25px 0 0 0;
+		float: left;
+		margin-left: 20%;
+	}
+	.hivj-gomb {
+		background-color: transparent;
+		display: inline-block;
+		cursor: pointer;
+		color: white;
+		font-family: Arial;
+		font-size: 18px;
+		text-shadow: none;
+		text-decoration: none;
+		padding: 14px;
+		border: 2px solid #336699;
+		border-radius: 0 0 25px 0;
+		float: right;
+		margin-right: 20%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.navigacios-menu-1 {
+		display: none;
+	}
+	#logo-2 {
+		display: flex;
+		justify-content: center;
+	}
+	#logo-2 a {
+		display: block;
+		text-decoration: none;
+		font-size: 40px;
+		color: white;
+		margin: 10px;
+		padding-left: 20px;
+		font-family: 'Dancing Script', cursive;
+	}
+	#kontener-2 {
+		margin: 0 auto;
+	}
+	.navigacios-menu-2 {
+		background-color: #336699;
+		width: 100%;
+		text-align: center;
+	}
+	.navigacios-menu-2 li {
+		list-style-type: none;
+		padding: 0px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		display: block;
+	}
+	.navigacios-menu-2 li a {
+		color: white;
+		font-size: 16px;
+		font-family: Arial;
+		text-decoration: none;
+		line-height: 35px;
+		padding: 5px 15px;
+	}
+	.navigacios-menu-2 ul {
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.profil-kep {
+		width: 350px;
+		border: 2px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+	}
+	.profil-kep:hover {
+		transition: 0.2s;
+		box-shadow: 0 0 2px 1px rgba(0, 140, 150, 0.5);
+	}
+	.osztott-1 {
+		text-align: center;
+	}
+	.tobbet-magamrol {
+		display: none;
+	}
+	.osztott-2 {
+		text-align: left;
+		padding: 50px;
+	}
+	.osztott-2 h1 {
+		text-align: center;
+	}
+	.tobbet-magamrol {
+		text-align: center;
+	}
+	.rolam-gomb {
+		background-color: #336699;
+		display: block;
+		cursor: pointer;
+		color: white;
+		font-family: Arial;
+		font-size: 18px;
+		margin-bottom: 10px;
+		text-shadow: none;
+		text-decoration: none;
+		padding: 15px;
+	}
+	.hivj-gomb {
+		background-color: transparent;
+		display: block;
+		cursor: pointer;
+		color: white;
+		font-family: Arial;
+		font-size: 18px;
+		text-shadow: none;
+		text-decoration: none;
+		padding: 14px;
+		border: 2px solid #336699;
+	}
+	.kontener {
+		flex-direction: column;
+	}
+}
